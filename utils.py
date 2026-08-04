@@ -3,7 +3,7 @@ import json
 import sys
 
 sys.path.append('.')
-from server import (TRAINING_DATA, HYPERPARAMETERS, PROJECT_INFO,
+from data import (TRAINING_DATA, HYPERPARAMETERS, PROJECT_INFO,
                    COURT_INFO, TRAINING_ISSUES, INFRASTRUCTURE)
 
 client = anthropic.Anthropic()
